@@ -8,10 +8,11 @@
   </head>
   <body>
       <h1>Quale logo preferisci?</h1>
-      <form action="risultati.php" onsubmit="setCookies(1,2)" method="get">
+      <p>Scegli uno dei due loghi toccandolo</p>
+      <form action="risultati.php" method="get">
         <p>
-          <button type="submit" id="logo1" name="voto" value="1"><img src="logo1.png"></button>
-          <button type="submit" id="logo2" name="voto" value="2"><img src="logo2.png"></button>
+          <input type="image" id="logo1" name="voto" value="1" src="logo1.png"><!--img src="logo1.png"--></button>
+          <input type="image" id="logo2" name="voto" value="2" src="logo2.png"></button>
         </p>
       </form>
   </body>
